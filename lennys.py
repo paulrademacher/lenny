@@ -5,7 +5,7 @@ lennys = [
     {'name': 'lenny', 'face':   '( ͡° ͜ʖ ͡°)', 'arms': False},
     {'name': 'shrug', 'face':   '¯\_(ツ)_/¯', 'arms': True},
     {'name': 'gimme', 'face':   '༼ つ ◕_◕ ༽つ', 'arms': True},
-    {'name': 'happy', 'face':   '(ツ)', 'arms': False},
+    {'name': 'whatever', 'face':   '(ツ)', 'arms': False},
 
     # http://www.reddit.com/r/lenny/comments/2x6akr/httplennyfacescom/
     {'name': 'lenny2', 'face':  '( ͡o ͜ʖ ͡o)', 'arms': False},
@@ -25,7 +25,7 @@ lennys = [
     {'name': 'yeah', 'face':    '(ಠ‿ಠ)', 'arms': False},
     {'name': 'zoidberg', 'face': '(\/)(°,,,°)(\/)', 'arms': True},
     {'name': 'run', 'face':     '(╯°□°）╯', 'arms': True},
-    {'name': 'happy2', 'face':  '(◕‿◕)', 'arms': False},
+    {'name': 'happy', 'face':  '(◕‿◕)', 'arms': False},
     {'name': 'snap', 'face':    "(☞ﾟ∀ﾟ)☞'", 'arms': True},
     {'name': 'shrug2', 'face':  '\_(ʘ_ʘ)_/', 'arms': True},
     {'name': 'mad', 'face':     "(ง •̀_•́)ง", 'arms': True},
@@ -34,7 +34,7 @@ lennys = [
     {'name': 'gimme3', 'face':  '(づ｡◕‿‿◕｡)づ', 'arms': True},
     {'name': 'gimme4', 'face':  '(ﾉ◕ヮ◕)ﾉ', 'arms': True},
     {'name': 'gimme5', 'face':  '(ノ・∀・)ノ', 'arms': True},
-    {'name': 'happy3', 'face':  '༼ຈل͜ຈ༽', 'arms': False},
+    {'name': 'happy2', 'face':  '༼ຈل͜ຈ༽', 'arms': False},
 
     # http://hexascii.com/sad-emoticons/
     {'name': 'crying2', 'face': '(╯︵╰,)', 'arms': False},

@@ -48,10 +48,10 @@ Shrug.println();   //  ¯\_(ツ)_/¯
 
 Gimme.println();   //  ༼ つ ◕_◕ ༽つ
 
-Happy.println();   //  (ツ)
-Happy.yay();       //  \(ツ)/
-Happy.flex();      //  ᕦ(ツ)ᕤ
-Happy.shrug();     //  ¯\_(ツ)_/¯
+Whatever.println(); //  (ツ)
+Whatever.yay();     //  \(ツ)/
+Whatever.flex();    //  ᕦ(ツ)ᕤ
+Whatever.shrug();   //  ¯\_(ツ)_/¯
 
 Lenny2.println();  //  ( ͡o ͜ʖ ͡o)
 Lenny2.yay();      //  \( ͡o ͜ʖ ͡o)/
@@ -122,10 +122,10 @@ Zoidberg.println(); //  (\/)(°,,,°)(\/)
 
 Run.println();     //  (╯°□°）╯
 
-Happy2.println();  //  (◕‿◕)
-Happy2.yay();      //  \(◕‿◕)/
-Happy2.flex();     //  ᕦ(◕‿◕)ᕤ
-Happy2.shrug();    //  ¯\_(◕‿◕)_/¯
+Happy.println();   //  (◕‿◕)
+Happy.yay();       //  \(◕‿◕)/
+Happy.flex();      //  ᕦ(◕‿◕)ᕤ
+Happy.shrug();     //  ¯\_(◕‿◕)_/¯
 
 Snap.println();    //  (☞ﾟ∀ﾟ)☞'
 
@@ -143,10 +143,10 @@ Gimme4.println();  //  (ﾉ◕ヮ◕)ﾉ
 
 Gimme5.println();  //  (ノ・∀・)ノ
 
-Happy3.println();  //  ༼ຈل͜ຈ༽
-Happy3.yay();      //  \༼ຈل͜ຈ༽/
-Happy3.flex();     //  ᕦ༼ຈل͜ຈ༽ᕤ
-Happy3.shrug();    //  ¯\_༼ຈل͜ຈ༽_/¯
+Happy2.println();  //  ༼ຈل͜ຈ༽
+Happy2.yay();      //  \༼ຈل͜ຈ༽/
+Happy2.flex();     //  ᕦ༼ຈل͜ຈ༽ᕤ
+Happy2.shrug();    //  ¯\_༼ຈل͜ຈ༽_/¯
 
 Crying2.println(); //  (╯︵╰,)
 Crying2.yay();     //  \(╯︵╰,)/

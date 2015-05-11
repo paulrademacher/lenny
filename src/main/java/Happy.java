@@ -3,7 +3,7 @@ package lenny;
 // THIS FILE IS GENERATED.  DO NOT EDIT.
 
 public class Happy extends Base {
-    final static String face = "(ツ)";
+    final static String face = "(◕‿◕)";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

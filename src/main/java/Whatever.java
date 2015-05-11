@@ -2,8 +2,8 @@ package lenny;
 
 // THIS FILE IS GENERATED.  DO NOT EDIT.
 
-public class Happy3 extends Base {
-    final static String face = "༼ຈل͜ຈ༽";
+public class Whatever extends Base {
+    final static String face = "(ツ)";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {
