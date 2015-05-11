@@ -127,7 +127,7 @@ Happy.yay();       //  \(◕‿◕)/
 Happy.flex();      //  ᕦ(◕‿◕)ᕤ
 Happy.shrug();     //  ¯\_(◕‿◕)_/¯
 
-Snap.println();    //  (☞ﾟ∀ﾟ)☞'
+Snap.println();    //  (☞ﾟ∀ﾟ)☞
 
 Shrug2.println();  //  \_(ʘ_ʘ)_/
 

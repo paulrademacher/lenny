@@ -26,7 +26,7 @@ lennys = [
     {'name': 'zoidberg', 'face': '(\/)(°,,,°)(\/)', 'arms': True},
     {'name': 'run', 'face':     '(╯°□°）╯', 'arms': True},
     {'name': 'happy', 'face':  '(◕‿◕)', 'arms': False},
-    {'name': 'snap', 'face':    "(☞ﾟ∀ﾟ)☞'", 'arms': True},
+    {'name': 'snap', 'face':    "(☞ﾟ∀ﾟ)☞", 'arms': True},
     {'name': 'shrug2', 'face':  '\_(ʘ_ʘ)_/', 'arms': True},
     {'name': 'mad', 'face':     "(ง •̀_•́)ง", 'arms': True},
     {'name': 'fight', 'face':   "(ง'̀-'́)ง", 'arms': True},
