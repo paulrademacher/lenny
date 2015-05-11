@@ -4,14 +4,14 @@ package lenny;
 
 import lenny.base.Base;
 
-public class ${CAMEL} extends Base {
-    final static String face = "${LENNY}";
+public class Gimme extends Base {
+    final static String face = "༼ つ ◕_◕ ༽つ";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {
-            return "\" + face + "/";
+            return "\\" + face + "/";
         } else {
-            return "\" + face + "/ " + message;
+            return "\\" + face + "/ " + message;
         }
     }
 

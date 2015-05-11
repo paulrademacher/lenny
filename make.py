@@ -8,7 +8,7 @@ import lennys
 
 template = Template(open("java-template.tmpl").read())
 
-java_path = "src/main/java"
+java_path = "src/main/java/lenny"
 
 methods = []
 
