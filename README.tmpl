@@ -28,10 +28,10 @@ Each Lenny also has `slf4j` logging calls:
 And if the Lenny has a *yay* or *flex* versions, then there will also be *yay*
 and *flex* logging calls.  For example, `Lenny4.warnFlex("Function completed");`
 
-will output this as an `slf4j` warn() call:
+outputs this as an `slf4j` `warn()` call (exact output depends on your `slf4j` configuration):
 
 ```
-    ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
+    WARN  [2015-05-11 03:22:32]: ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
 ```
 
 ```
