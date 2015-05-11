@@ -4,8 +4,6 @@ This is the official Lenny library for Java.
 
 Writes Lennys to stdout or to `slf4j`, optionally followed by a String message.
 
-This is very important for your application.
-
 All the methods below have two versions:
 
 * Without arguments, you just get the lenny.
@@ -13,11 +11,15 @@ All the methods below have two versions:
 
 For example:
 
-```    Lenny2.yay("Function completed");```
+```
+    Lenny2.yay("Function completed");
+```
 
 will write this to stdout:
 
-```    \( ͡o ͜ʖ ͡o)/ Function completed```
+```
+    \( ͡o ͜ʖ ͡o)/ Function completed
+```
 
 Each Lenny also has `slf4j` logging calls:
 
@@ -30,11 +32,15 @@ Each Lenny also has `slf4j` logging calls:
 And if the Lenny has a *yay* or *flex* versions, then there will also be *yay*
 and *flex* logging calls.  For example:
 
-```    Lenny4.warnFlex("Function completed");```
+```
+    Lenny4.warnFlex("Function completed");
+```
 
 will output this as an `slf4j` warn() call:
 
-```    ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed```
+```
+    ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
+```
 
 ```
 import lenny.*;
