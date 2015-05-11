@@ -9,12 +9,8 @@ import lennys
 template = Template(open("java-template.tmpl").read())
 
 java_path = "src/main/java"
-print "Writing", os.path.join(java_path, "README.md")
-readme = open(os.path.join(java_path, "README.md"), "w")
 
-readme.write("# Lenny API\n\n")
-readme.write("```\n");
-readme.write("import lenny.*\n\n");
+methods = []
 
 for item in lennys.lennys:
     face = item['face']
@@ -29,12 +25,18 @@ for item in lennys.lennys:
     output = open(file_path, "w").write(java_src)
 
     spacer = ' ' * (10 - len(camel))
-    readme.write("%s.println(); %s//  %s\n" % (camel, spacer, face))
+    methods.append("%s.println(); %s//  %s" % (camel, spacer, face))
 
     if not has_arms:
-        readme.write("%s.yay();     %s//  \\%s/\n" % (camel, spacer, face))
-        readme.write("%s.flex();    %s//  ᕦ%sᕤ\n" % (camel, spacer, face))
-    readme.write("\n")
+        methods.append("%s.yay();     %s//  \\%s/" % (camel, spacer, face))
+        methods.append("%s.flex();    %s//  ᕦ%sᕤ" % (camel, spacer, face))
 
-readme.write("```");
+    methods.append("")
+
+print "Writing README.md"
+README_INPUT = "README.tmpl"
+README_OUTPUT = "README.md"
+readme_template = Template(open(README_INPUT).read())
+methods_string = "\n".join(methods)
+open(README_OUTPUT, "w").write(readme_template.substitute(METHODS=methods_string))
 

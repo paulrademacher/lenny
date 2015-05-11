@@ -1,7 +1,32 @@
-# Lenny API
+# Lenny ( ͡° ͜ʖ ͡°)
+
+This is the official Lenny library for Java.
+Writes Lennys to stdout or to `slf4j`, optionally followed by a String message.
+This is very important for your application.
 
 ```
-import lenny.*
+import lenny.*;
+
+// All the methods below have two versions:
+//    Without arguments, you just get the lenny.
+//    With a String message, you get lenny followed by the string.
+// For example:
+//    `Lenny2.yay("Function completed");`
+// will write this to stdout:
+//    `\( ͡o ͜ʖ ͡o)/ Function completed`
+//
+// Each Lenny also has `slf4j` logging calls:
+//    .info()   // Both no-args, and with a single String message
+//    .warn()   // No-args or with a String message
+//    .debug()  // etc
+//    .error()
+//    .trace()
+//
+// And if the Lenny has a *yay* or *flex* versions, then there will also be *yay*
+// and *flex* logging calls.  For example:
+//     `Lenny4.warnFlex("Function completed");`
+// will output this as an `slf4j` warn() call:
+//     `ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed`
 
 Lenny.println();      //  ( ͡° ͜ʖ ͡°)
 Lenny.yay();          //  \( ͡° ͜ʖ ͡°)/
@@ -114,3 +139,7 @@ Crazy.yay();          //  \(⊙_◎)/
 Crazy.flex();         //  ᕦ(⊙_◎)ᕤ
 
 ```
+
+---------
+
+Made with :horse: by Paul Rademacher.
