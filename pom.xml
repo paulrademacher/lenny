@@ -16,6 +16,16 @@
     </license>
   </licenses>
 
+  <developers>
+      <developer>
+          <name>Paul Rademacher</name>
+          <timezone>America/Los_Angeles</timezone>
+          <roles>
+              <role>developer</role>
+          </roles>
+      </developer>
+  </developers>
+
   <scm>
       <url>https://github.com/paulrademacher/lenny</url>
       <connection>scm:git:git://github.com/paulrademacher/lenny.git</connection>
