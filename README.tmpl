@@ -11,9 +11,7 @@ All the methods below have two versions:
 
 For example:
 
-```
-    Lenny2.yay("Function completed");
-```
+`Lenny2.yay("Function completed");`
 
 will write this to stdout:
 
@@ -32,9 +30,7 @@ Each Lenny also has `slf4j` logging calls:
 And if the Lenny has a *yay* or *flex* versions, then there will also be *yay*
 and *flex* logging calls.  For example:
 
-```
-    Lenny4.warnFlex("Function completed");
-```
+`Lenny4.warnFlex("Function completed");`
 
 will output this as an `slf4j` warn() call:
 
