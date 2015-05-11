@@ -14,7 +14,7 @@ For example, `Lenny2.yay("Function completed");`
 will write this to stdout:
 
 ```
-    \( ͡o ͜ʖ ͡o)/ Function completed
+ \( ͡o ͜ʖ ͡o)/ Function completed
 ```
 
 Each Lenny also has `slf4j` logging calls:
@@ -31,7 +31,7 @@ outputs this as an `slf4j` `warn()` call (exact output depends on your `slf4j`
 configuration):
 
 ```
-    WARN  [2015-05-11 03:22:32]: ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
+ WARN  [2015-05-11 03:22:32]: ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
 ```
 
 ## The Lennys
