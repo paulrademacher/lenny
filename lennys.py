@@ -23,10 +23,8 @@ lennys = [
     # https://github.com/maxogden/cool-ascii-faces
     {'name': 'wat', 'face':     '(ಠ_ಠ)', 'arms': False},
     {'name': 'yeah', 'face':    '(ಠ‿ಠ)', 'arms': False},
-    {'name': 'rawr', 'face':    '(\/)(°,,,°)(\/)', 'arms': True},
+    {'name': 'zoidberg', 'face': '(\/)(°,,,°)(\/)', 'arms': True},
     {'name': 'run', 'face':     '(╯°□°）╯', 'arms': True},
-    {'name': 'run2', 'face':    '(ﾉ◕ヮ◕)ﾉ', 'arms': True},
-    {'name': 'run3', 'face':    '(ノ・∀・)ノ', 'arms': True},
     {'name': 'happy2', 'face':  '(◕‿◕)', 'arms': False},
     {'name': 'snap', 'face':    "(☞ﾟ∀ﾟ)☞'", 'arms': True},
     {'name': 'shrug2', 'face':  '\_(ʘ_ʘ)_/', 'arms': True},
@@ -34,7 +32,13 @@ lennys = [
     {'name': 'fight', 'face':   "(ง'̀-'́)ง", 'arms': True},
     {'name': 'gimme2', 'face':  '(っ◕‿◕)っ', 'arms': True},
     {'name': 'gimme3', 'face':  '(づ｡◕‿‿◕｡)づ', 'arms': True},
+    {'name': 'gimme4', 'face':  '(ﾉ◕ヮ◕)ﾉ', 'arms': True},
+    {'name': 'gimme5', 'face':  '(ノ・∀・)ノ', 'arms': True},
     {'name': 'happy3', 'face':  '༼ຈل͜ຈ༽', 'arms': False},
+
+    # http://hexascii.com/sad-emoticons/
+    {'name': 'crying2', 'face': '(╯︵╰,)', 'arms': False},
+    {'name': 'angry', 'face':   '(っ˘̩╭╮˘̩)っ', 'arms': True},
 
     # http://1lineart.kulaone.com/
     {'name': 'swimming', 'face': '¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>', 'arms': True},

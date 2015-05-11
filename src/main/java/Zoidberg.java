@@ -2,8 +2,8 @@ package lenny;
 
 // THIS FILE IS GENERATED.  DO NOT EDIT.
 
-public class Run3 extends Base {
-    final static String face = "(ノ・∀・)ノ";
+public class Zoidberg extends Base {
+    final static String face = "(\\/)(°,,,°)(\\/)";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

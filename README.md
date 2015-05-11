@@ -25,10 +25,10 @@ Each Lenny also has `slf4j` logging calls:
 * `.error()`
 * `.trace()`
 
-And if the Lenny has a *yay* or *flex* versions, then there will also be *yay*
-and *flex* logging calls.  For example, `Lenny4.warnFlex("Function completed");`
-
-outputs this as an `slf4j` `warn()` call (exact output depends on your `slf4j` configuration):
+And if the Lenny has *yay*, *flex*, and *shrug* versions, then there will also be *yay*,
+*flex*, and *shrug* logging calls.  For example, `Lenny4.warnFlex("Function completed");`
+outputs this as an `slf4j` `warn()` call (exact output depends on your `slf4j`
+configuration):
 
 ```
     WARN  [2015-05-11 03:22:32]: ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
@@ -39,115 +39,140 @@ outputs this as an `slf4j` `warn()` call (exact output depends on your `slf4j` c
 ```
 import lenny.*;
 
-Lenny.println();      //  ( ͡° ͜ʖ ͡°)
-Lenny.yay();          //  \( ͡° ͜ʖ ͡°)/
-Lenny.flex();         //  ᕦ( ͡° ͜ʖ ͡°)ᕤ
+Lenny.println();   //  ( ͡° ͜ʖ ͡°)
+Lenny.yay();       //  \( ͡° ͜ʖ ͡°)/
+Lenny.flex();      //  ᕦ( ͡° ͜ʖ ͡°)ᕤ
+Lenny.shrug();     //  ¯\_( ͡° ͜ʖ ͡°)_/¯
 
-Shrug.println();      //  ¯\_(ツ)_/¯
+Shrug.println();   //  ¯\_(ツ)_/¯
 
-Gimme.println();      //  ༼ つ ◕_◕ ༽つ
+Gimme.println();   //  ༼ つ ◕_◕ ༽つ
 
-Happy.println();      //  (ツ)
-Happy.yay();          //  \(ツ)/
-Happy.flex();         //  ᕦ(ツ)ᕤ
+Happy.println();   //  (ツ)
+Happy.yay();       //  \(ツ)/
+Happy.flex();      //  ᕦ(ツ)ᕤ
+Happy.shrug();     //  ¯\_(ツ)_/¯
 
-Lenny2.println();     //  ( ͡o ͜ʖ ͡o)
-Lenny2.yay();         //  \( ͡o ͜ʖ ͡o)/
-Lenny2.flex();        //  ᕦ( ͡o ͜ʖ ͡o)ᕤ
+Lenny2.println();  //  ( ͡o ͜ʖ ͡o)
+Lenny2.yay();      //  \( ͡o ͜ʖ ͡o)/
+Lenny2.flex();     //  ᕦ( ͡o ͜ʖ ͡o)ᕤ
+Lenny2.shrug();    //  ¯\_( ͡o ͜ʖ ͡o)_/¯
 
-Lenny3.println();     //  ( ͡◕ ͜ʖ ͡◕)
-Lenny3.yay();         //  \( ͡◕ ͜ʖ ͡◕)/
-Lenny3.flex();        //  ᕦ( ͡◕ ͜ʖ ͡◕)ᕤ
+Lenny3.println();  //  ( ͡◕ ͜ʖ ͡◕)
+Lenny3.yay();      //  \( ͡◕ ͜ʖ ͡◕)/
+Lenny3.flex();     //  ᕦ( ͡◕ ͜ʖ ͡◕)ᕤ
+Lenny3.shrug();    //  ¯\_( ͡◕ ͜ʖ ͡◕)_/¯
 
-Lenny4.println();     //  ( ͡ಠ ͜ʖ ͡ಠ)
-Lenny4.yay();         //  \( ͡ಠ ͜ʖ ͡ಠ)/
-Lenny4.flex();        //  ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ
+Lenny4.println();  //  ( ͡ಠ ͜ʖ ͡ಠ)
+Lenny4.yay();      //  \( ͡ಠ ͜ʖ ͡ಠ)/
+Lenny4.flex();     //  ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ
+Lenny4.shrug();    //  ¯\_( ͡ಠ ͜ʖ ͡ಠ)_/¯
 
-Lenny5.println();     //  ( ͡◉ ͜ʖ ͡◉))
-Lenny5.yay();         //  \( ͡◉ ͜ʖ ͡◉))/
-Lenny5.flex();        //  ᕦ( ͡◉ ͜ʖ ͡◉))ᕤ
+Lenny5.println();  //  ( ͡◉ ͜ʖ ͡◉))
+Lenny5.yay();      //  \( ͡◉ ͜ʖ ͡◉))/
+Lenny5.flex();     //  ᕦ( ͡◉ ͜ʖ ͡◉))ᕤ
+Lenny5.shrug();    //  ¯\_( ͡◉ ͜ʖ ͡◉))_/¯
 
-Lenny6.println();     //  ( ͡◐ ͜ʖ ͡◑))
-Lenny6.yay();         //  \( ͡◐ ͜ʖ ͡◑))/
-Lenny6.flex();        //  ᕦ( ͡◐ ͜ʖ ͡◑))ᕤ
+Lenny6.println();  //  ( ͡◐ ͜ʖ ͡◑))
+Lenny6.yay();      //  \( ͡◐ ͜ʖ ͡◑))/
+Lenny6.flex();     //  ᕦ( ͡◐ ͜ʖ ͡◑))ᕤ
+Lenny6.shrug();    //  ¯\_( ͡◐ ͜ʖ ͡◑))_/¯
 
-Lenny7.println();     //  ( ͡ຈ ͜ʖ ͡ຈ)
-Lenny7.yay();         //  \( ͡ຈ ͜ʖ ͡ຈ)/
-Lenny7.flex();        //  ᕦ( ͡ຈ ͜ʖ ͡ຈ)ᕤ
+Lenny7.println();  //  ( ͡ຈ ͜ʖ ͡ຈ)
+Lenny7.yay();      //  \( ͡ຈ ͜ʖ ͡ຈ)/
+Lenny7.flex();     //  ᕦ( ͡ຈ ͜ʖ ͡ຈ)ᕤ
+Lenny7.shrug();    //  ¯\_( ͡ຈ ͜ʖ ͡ຈ)_/¯
 
-Lenny8.println();     //  ( ͡◔ ͜ʖ ͡◔)
-Lenny8.yay();         //  \( ͡◔ ͜ʖ ͡◔)/
-Lenny8.flex();        //  ᕦ( ͡◔ ͜ʖ ͡◔)ᕤ
+Lenny8.println();  //  ( ͡◔ ͜ʖ ͡◔)
+Lenny8.yay();      //  \( ͡◔ ͜ʖ ͡◔)/
+Lenny8.flex();     //  ᕦ( ͡◔ ͜ʖ ͡◔)ᕤ
+Lenny8.shrug();    //  ¯\_( ͡◔ ͜ʖ ͡◔)_/¯
 
-Lenny9.println();     //  ( ͡⚆ ͜ʖ ͡⚆)
-Lenny9.yay();         //  \( ͡⚆ ͜ʖ ͡⚆)/
-Lenny9.flex();        //  ᕦ( ͡⚆ ͜ʖ ͡⚆)ᕤ
+Lenny9.println();  //  ( ͡⚆ ͜ʖ ͡⚆)
+Lenny9.yay();      //  \( ͡⚆ ͜ʖ ͡⚆)/
+Lenny9.flex();     //  ᕦ( ͡⚆ ͜ʖ ͡⚆)ᕤ
+Lenny9.shrug();    //  ¯\_( ͡⚆ ͜ʖ ͡⚆)_/¯
 
-Lenny10.println();    //  ( ͡ʘ ͜ʖ ͡ʘ)
-Lenny10.yay();        //  \( ͡ʘ ͜ʖ ͡ʘ)/
-Lenny10.flex();       //  ᕦ( ͡ʘ ͜ʖ ͡ʘ)ᕤ
+Lenny10.println(); //  ( ͡ʘ ͜ʖ ͡ʘ)
+Lenny10.yay();     //  \( ͡ʘ ͜ʖ ͡ʘ)/
+Lenny10.flex();    //  ᕦ( ͡ʘ ͜ʖ ͡ʘ)ᕤ
+Lenny10.shrug();   //  ¯\_( ͡ʘ ͜ʖ ͡ʘ)_/¯
 
-Crying.println();     //  ( ͡; ʖ̯  ͡;)
-Crying.yay();         //  \( ͡; ʖ̯  ͡;)/
-Crying.flex();        //  ᕦ( ͡; ʖ̯  ͡;)ᕤ
+Crying.println();  //  ( ͡; ʖ̯  ͡;)
+Crying.yay();      //  \( ͡; ʖ̯  ͡;)/
+Crying.flex();     //  ᕦ( ͡; ʖ̯  ͡;)ᕤ
+Crying.shrug();    //  ¯\_( ͡; ʖ̯  ͡;)_/¯
 
-Meh.println();        //  (‾ ʖ̫ ‾)
-Meh.yay();            //  \(‾ ʖ̫ ‾)/
-Meh.flex();           //  ᕦ(‾ ʖ̫ ‾)ᕤ
+Meh.println();     //  (‾ ʖ̫ ‾)
+Meh.yay();         //  \(‾ ʖ̫ ‾)/
+Meh.flex();        //  ᕦ(‾ ʖ̫ ‾)ᕤ
+Meh.shrug();       //  ¯\_(‾ ʖ̫ ‾)_/¯
 
-Wat.println();        //  (ಠ_ಠ)
-Wat.yay();            //  \(ಠ_ಠ)/
-Wat.flex();           //  ᕦ(ಠ_ಠ)ᕤ
+Wat.println();     //  (ಠ_ಠ)
+Wat.yay();         //  \(ಠ_ಠ)/
+Wat.flex();        //  ᕦ(ಠ_ಠ)ᕤ
+Wat.shrug();       //  ¯\_(ಠ_ಠ)_/¯
 
-Yeah.println();       //  (ಠ‿ಠ)
-Yeah.yay();           //  \(ಠ‿ಠ)/
-Yeah.flex();          //  ᕦ(ಠ‿ಠ)ᕤ
+Yeah.println();    //  (ಠ‿ಠ)
+Yeah.yay();        //  \(ಠ‿ಠ)/
+Yeah.flex();       //  ᕦ(ಠ‿ಠ)ᕤ
+Yeah.shrug();      //  ¯\_(ಠ‿ಠ)_/¯
 
-Rawr.println();       //  (\/)(°,,,°)(\/)
+Zoidberg.println(); //  (\/)(°,,,°)(\/)
 
-Run.println();        //  (╯°□°）╯
+Run.println();     //  (╯°□°）╯
 
-Run2.println();       //  (ﾉ◕ヮ◕)ﾉ
+Happy2.println();  //  (◕‿◕)
+Happy2.yay();      //  \(◕‿◕)/
+Happy2.flex();     //  ᕦ(◕‿◕)ᕤ
+Happy2.shrug();    //  ¯\_(◕‿◕)_/¯
 
-Run3.println();       //  (ノ・∀・)ノ
+Snap.println();    //  (☞ﾟ∀ﾟ)☞'
 
-Happy2.println();     //  (◕‿◕)
-Happy2.yay();         //  \(◕‿◕)/
-Happy2.flex();        //  ᕦ(◕‿◕)ᕤ
+Shrug2.println();  //  \_(ʘ_ʘ)_/
 
-Snap.println();       //  (☞ﾟ∀ﾟ)☞'
+Mad.println();     //  (ง •̀_•́)ง
 
-Shrug2.println();     //  \_(ʘ_ʘ)_/
+Fight.println();   //  (ง'̀-'́)ง
 
-Mad.println();        //  (ง •̀_•́)ง
+Gimme2.println();  //  (っ◕‿◕)っ
 
-Fight.println();      //  (ง'̀-'́)ง
+Gimme3.println();  //  (づ｡◕‿‿◕｡)づ
 
-Gimme2.println();     //  (っ◕‿◕)っ
+Gimme4.println();  //  (ﾉ◕ヮ◕)ﾉ
 
-Gimme3.println();     //  (づ｡◕‿‿◕｡)づ
+Gimme5.println();  //  (ノ・∀・)ノ
 
-Happy3.println();     //  ༼ຈل͜ຈ༽
-Happy3.yay();         //  \༼ຈل͜ຈ༽/
-Happy3.flex();        //  ᕦ༼ຈل͜ຈ༽ᕤ
+Happy3.println();  //  ༼ຈل͜ຈ༽
+Happy3.yay();      //  \༼ຈل͜ຈ༽/
+Happy3.flex();     //  ᕦ༼ຈل͜ຈ༽ᕤ
+Happy3.shrug();    //  ¯\_༼ຈل͜ຈ༽_/¯
 
-Swimming.println();   //  ¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>
+Crying2.println(); //  (╯︵╰,)
+Crying2.yay();     //  \(╯︵╰,)/
+Crying2.flex();    //  ᕦ(╯︵╰,)ᕤ
+Crying2.shrug();   //  ¯\_(╯︵╰,)_/¯
 
-Fish.println();       //  ><(((('>
+Angry.println();   //  (っ˘̩╭╮˘̩)っ
 
-Fight.println();      //  (ง︡'-'︠)ง
+Swimming.println(); //  ¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>
 
-Metal.println();      //  \m/_(>_<)_\m/
+Fish.println();    //  ><(((('>
 
-Fu.println();         //  ┌∩┐(◣_◢)┌∩┐
+Fight.println();   //  (ง︡'-'︠)ง
 
-Fu2.println();        //  (ಠ_ಠ)┌∩┐
+Metal.println();   //  \m/_(>_<)_\m/
 
-Meh2.println();       //  ヽ(。_°)ノ
+Fu.println();      //  ┌∩┐(◣_◢)┌∩┐
 
-Crazy.println();      //  (⊙_◎)
-Crazy.yay();          //  \(⊙_◎)/
-Crazy.flex();         //  ᕦ(⊙_◎)ᕤ
+Fu2.println();     //  (ಠ_ಠ)┌∩┐
+
+Meh2.println();    //  ヽ(。_°)ノ
+
+Crazy.println();   //  (⊙_◎)
+Crazy.yay();       //  \(⊙_◎)/
+Crazy.flex();      //  ᕦ(⊙_◎)ᕤ
+Crazy.shrug();     //  ¯\_(⊙_◎)_/¯
 
 ```
 

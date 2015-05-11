@@ -24,12 +24,13 @@ for item in lennys.lennys:
     print "Writing", file_path
     output = open(file_path, "w").write(java_src)
 
-    spacer = ' ' * (10 - len(camel))
+    spacer = ' ' * (7 - len(camel))
     methods.append("%s.println(); %s//  %s" % (camel, spacer, face))
 
     if not has_arms:
         methods.append("%s.yay();     %s//  \\%s/" % (camel, spacer, face))
         methods.append("%s.flex();    %s//  ᕦ%sᕤ" % (camel, spacer, face))
+        methods.append("%s.shrug();   %s//  ¯\_%s_/¯" % (camel, spacer, face))
 
     methods.append("")
 
