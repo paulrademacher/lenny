@@ -34,6 +34,8 @@ outputs this as an `slf4j` `warn()` call (exact output depends on your `slf4j` c
     WARN  [2015-05-11 03:22:32]: ᕦ( ͡ಠ ͜ʖ ͡ಠ)ᕤ Function completed
 ```
 
+## The Lennys
+
 ```
 import lenny.*;
 
