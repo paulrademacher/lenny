@@ -43,7 +43,6 @@ lennys = [
     # http://1lineart.kulaone.com/
     {'name': 'swimming', 'face': '¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>', 'arms': True},
     {'name': 'fish', 'face':    '><((((\'>', 'arms': True},
-    {'name': 'fight', 'face':   '(ง︡\'-\'︠)ง', 'arms': True},
     {'name': 'metal', 'face':   '\m/_(>_<)_\m/', 'arms': True},
 
     # http://imgur.com/gallery/GVxhh

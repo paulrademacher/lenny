@@ -159,8 +159,6 @@ Swimming.println(); //  ¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>
 
 Fish.println();    //  ><(((('>
 
-Fight.println();   //  (ง︡'-'︠)ง
-
 Metal.println();   //  \m/_(>_<)_\m/
 
 Fu.println();      //  ┌∩┐(◣_◢)┌∩┐

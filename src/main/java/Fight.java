@@ -3,7 +3,7 @@ package lenny;
 // THIS FILE IS GENERATED.  DO NOT EDIT.
 
 public class Fight extends Base {
-    final static String face = "(ง︡'-'︠)ง";
+    final static String face = "(ง'̀-'́)ง";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {
