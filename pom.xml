@@ -30,7 +30,6 @@
       <url>https://github.com/paulrademacher/lenny</url>
       <connection>scm:git:git://github.com/paulrademacher/lenny.git</connection>
       <developerConnection>scm:git:git@github.com:paulrademacher/lenny.git</developerConnection>
-      <tag>lenny-1.0</tag>
   </scm>
 
   <dependencies>
