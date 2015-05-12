@@ -1,6 +1,9 @@
 # Lenny ( ͡° ͜ʖ ͡°)
 
-This is the official Lenny library for Java.
+This is the official Lenny library for Java.  Who is Lenny?  That guy above.
+
+With this library, you can finally output Lenny and his friends to stdout, or
+to all your `slf4j` logging calls.
 
 Writes Lennys to stdout or to `slf4j`, optionally followed by a String message.
 
@@ -40,6 +43,28 @@ configuration):
 import lenny.*;
 
 ${METHODS}
+```
+
+## Install
+
+Add the Maven dependency to your `pom.xml` file:
+```
+  <dependency>
+      <groupId>com.paulrademacher</groupId>
+      <artifactId>lenny</artifactId>
+      <version>1.0</version>
+  </dependency>
+```
+
+You may need to add the sonatype releases repository:
+```
+  <repositories>
+      <repository>
+          <id>sonatype-nexus-releases</id>
+          <name>Sonatype Nexus Snapshots</name>
+          <url>http://oss.sonatype.org/content/repositories/releases</url>
+      </repository>
+  </repositories>
 ```
 
 ---------
