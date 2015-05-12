@@ -3,7 +3,7 @@
 
   <groupId>com.paulrademacher</groupId>
   <artifactId>lenny</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Lenny</name>
@@ -30,7 +30,7 @@
       <url>https://github.com/paulrademacher/lenny</url>
       <connection>scm:git:git://github.com/paulrademacher/lenny.git</connection>
       <developerConnection>scm:git:git@github.com:paulrademacher/lenny.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>lenny-1.0</tag>
   </scm>
 
   <dependencies>
