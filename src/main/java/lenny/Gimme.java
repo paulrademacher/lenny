@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Gimme extends Base {
-    final static String face = "༼ つ ◕_◕ ༽つ";
+    public final static String face = "༼ つ ◕_◕ ༽つ";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

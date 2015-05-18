@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Swimming extends Base {
-    final static String face = "¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>";
+    public final static String face = "¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

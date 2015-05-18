@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Metal extends Base {
-    final static String face = "\\m/_(>_<)_\\m/";
+    public final static String face = "\\m/_(>_<)_\\m/";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

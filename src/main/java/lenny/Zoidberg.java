@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Zoidberg extends Base {
-    final static String face = "(\\/)(°,,,°)(\\/)";
+    public final static String face = "(\\/)(°,,,°)(\\/)";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

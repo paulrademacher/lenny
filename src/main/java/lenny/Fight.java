@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Fight extends Base {
-    final static String face = "(ง'̀-'́)ง";
+    public final static String face = "(ง'̀-'́)ง";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

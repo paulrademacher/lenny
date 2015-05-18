@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Shrug extends Base {
-    final static String face = "¯\\_(ツ)_/¯";
+    public final static String face = "¯\\_(ツ)_/¯";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {

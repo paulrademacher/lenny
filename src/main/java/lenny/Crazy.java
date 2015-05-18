@@ -5,7 +5,7 @@ package lenny;
 import lenny.base.Base;
 
 public class Crazy extends Base {
-    final static String face = "(⊙_◎)";
+    public final static String face = "(⊙_◎)";
 
     public static String makeYay(String message) {
         if (message == null || message.equals("")) {
