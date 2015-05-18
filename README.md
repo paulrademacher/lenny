@@ -56,6 +56,16 @@ Whatever.yay();     //  \(ツ)/
 Whatever.flex();    //  ᕦ(ツ)ᕤ
 Whatever.shrug();   //  ¯\_(ツ)_/¯
 
+Wideeyes.println(); //  ( ͡ʘ ͜ʖ ͡ʘ)
+Wideeyes.yay();     //  \( ͡ʘ ͜ʖ ͡ʘ)/
+Wideeyes.flex();    //  ᕦ( ͡ʘ ͜ʖ ͡ʘ)ᕤ
+Wideeyes.shrug();   //  ¯\_( ͡ʘ ͜ʖ ͡ʘ)_/¯
+
+Senorlenny.println(); //  ( ͡°╭͜ʖ╮͡° )
+Senorlenny.yay();     //  \( ͡°╭͜ʖ╮͡° )/
+Senorlenny.flex();    //  ᕦ( ͡°╭͜ʖ╮͡° )ᕤ
+Senorlenny.shrug();   //  ¯\_( ͡°╭͜ʖ╮͡° )_/¯
+
 Lenny2.println();  //  ( ͡o ͜ʖ ͡o)
 Lenny2.yay();      //  \( ͡o ͜ʖ ͡o)/
 Lenny2.flex();     //  ᕦ( ͡o ͜ʖ ͡o)ᕤ
