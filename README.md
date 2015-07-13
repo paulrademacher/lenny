@@ -66,6 +66,11 @@ Senorlenny.yay();     //  \( ͡°╭͜ʖ╮͡° )/
 Senorlenny.flex();    //  ᕦ( ͡°╭͜ʖ╮͡° )ᕤ
 Senorlenny.shrug();   //  ¯\_( ͡°╭͜ʖ╮͡° )_/¯
 
+Wink.println();    //  ( ͡~ ͜ʖ ͡°)
+Wink.yay();        //  \( ͡~ ͜ʖ ͡°)/
+Wink.flex();       //  ᕦ( ͡~ ͜ʖ ͡°)ᕤ
+Wink.shrug();      //  ¯\_( ͡~ ͜ʖ ͡°)_/¯
+
 Lenny2.println();  //  ( ͡o ͜ʖ ͡o)
 Lenny2.yay();      //  \( ͡o ͜ʖ ͡o)/
 Lenny2.flex();     //  ᕦ( ͡o ͜ʖ ͡o)ᕤ

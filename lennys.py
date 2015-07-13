@@ -8,6 +8,7 @@ lennys = [
     {'name': 'whatever', 'face':   '(ツ)', 'arms': False},
     {'name': 'wideEyes', 'face': '( ͡ʘ ͜ʖ ͡ʘ)', 'arms': False},
     {'name': 'senorLenny', 'face': '( ͡°╭͜ʖ╮͡° )', 'arms': False},
+    {'name': 'wink', 'face': '( ͡~ ͜ʖ ͡°)', 'arms': False},
 
     # http://www.reddit.com/r/lenny/comments/2x6akr/httplennyfacescom/
     {'name': 'lenny2', 'face':  '( ͡o ͜ʖ ͡o)', 'arms': False},
